@@ -1,0 +1,199 @@
+.hotels
+{
+    padding-top: 85px;
+    /* color: white; */
+    /* border: 2px dotted pink; */
+    /* border: 2px dotted pink; */
+}
+
+
+
+.whiteclr
+{
+    height: 45px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    align-items: center;
+    /* color: white; */
+}
+
+
+.golden
+{
+    width: 90%;
+    /* border: 1px solid red; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;    margin: auto;
+    height: 330px;
+    margin: 30px auto;
+    /* background-color: white; */
+    background: url('./back.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.golden-intro
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20px;
+}
+
+.golden-intro h4
+{
+    margin: 10px 0px;
+    padding: 0;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 370px;
+}
+.golden-intro h4:first-child
+{
+    color: grey;
+}
+
+.golden-intro p
+{
+    margin: 5px;
+    padding: 0;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.golden-intro h2
+{
+    margin: 0;
+    padding: 0;
+    font-size: 45px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #b8860b; 
+    
+
+}
+
+
+
+.golden-intro button
+{
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    /* background-color: #b8860b; */
+    background-image: linear-gradient(to right, gold 0%, #F4D03F  51%, #b8860b  100%);
+    background-size: 200% auto;
+    transition: 0.5s;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .golden-intro button:hover
+  {
+      background-position: right center; /* change the direction of the change here */
+      text-decoration: none;
+    }
+  
+    .silver-intro button
+  {
+  
+    background-image: linear-gradient(to right, silver 0%, #888888  51%, #9b9b9b  100%);
+    background-color: #888888;
+  }
+  
+  .silver-intro h2
+  {
+     color: #888888; 
+  }
+    .bronze-intro button
+  {
+  
+    background-image: linear-gradient(to right, #A56546 0%, #bd5b2a  51%, #773108  100%);
+    background-color: #888888;
+  }
+  
+  .bronze-intro h2
+  {
+     color: #A56546; 
+  }
+
+
+
+
+
+
+  /* Mobile */
+    @media (max-width: 768px)
+    {
+    .golden
+    {
+        align-items: center;
+        flex-direction: column;
+        height: 100%;
+        background : none;
+    }
+
+    .hotel-small-card {
+        width: 270px;
+
+    }
+
+    .golden-intro
+    {
+        align-items: center;
+    }
+      
+    .golden-intro h4
+    {
+        text-align: center;
+    }
+    
+}
+
+
+
+
+/* ******************---------                           Hotel Small Card                  --------------***************** */
+
+/* HotelSmallCard.css */
+
+.hotel-small-card {
+    width: 220px;
+    /* padding: 16px; */
+    border-radius: 8px;
+    /* border: 1px solid #ccc; */
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    background-color: white;
+    height: 250px;
+  }
+  
+  .hotel-small-image {
+    width: 100%;
+    height: 160px;
+    border-radius: 8px 8px 0 0;
+  }
+  
+  .hotel-small-title {
+    /* margin-top: 16px; */
+    font-weight: bold;
+    margin:2%;
+  }
+  
+  .hotel-small-subtitle {
+    margin: 10px 10px;
+  }
+  

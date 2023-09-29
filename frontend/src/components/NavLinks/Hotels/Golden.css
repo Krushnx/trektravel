@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+.hotel-large-card
+{
+  display: flex;
+  height: 250px;
+  background-color: white;
+  border-radius: 15px;
+  /* border: 2px solid red; */
+  width: 85%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin: 20px auto;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hotel-large-card img
+{
+  border-radius: 25px;
+  height: 220px;
+  padding: 10px;
+  width: 300px;
+  object-fit: cover;
+}
+
+.hotel-info
+{
+  margin-left: 40px;
+}
+
+.hotel-large-card h2
+{
+  font-size: 30px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-bottom: 10px;
+}
+
+.picinfo
+{
+  display: flex;
+
+}
+
+.hotel-info p
+{
+  width: 450px;
+  max-height: 2.4em; /* Equivalent to 3 lines of text */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: pre-wrap;
+  margin: 10px;
+  color: grey;
+}
+
+.hotel-info li
+{
+  color: rgb(95, 95, 95);
+  list-style: circle;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 1px;
+}
+.hotel-booking
+{
+  display: flex;
+  flex-direction: column;
+  margin-right: 40px;
+  margin-top: 50px;
+  align-items: flex-end;
+  height: 100%;
+}
+
+.rating{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.rating h3
+{
+  font-size: 20px;
+  padding: 4px;
+  border-radius: 20px;
+  width: 50px;
+  height: 23px;
+  text-align: center;
+  
+}
+
+.hotel-numbers h4
+{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin: 0 7px;
+  padding: 0;
+  font-size: 18px;
+}
+
+.hotel-numbers p
+{
+  padding: 0;
+  margin: 0 7px;
+  color: grey;
+}
+.fake-price
+{
+  margin-top: 10px;
+  margin-bottom: -20px;
+  font-size: 22px;
+  color: grey;
+  text-decoration: line-through;
+  font-weight: lighter;
+  padding: 0;
+  font-family: 'Roboto Slab', serif;
+  
+}
+.price
+{
+  font-size: 30px;
+  margin: 20px 0px;
+  padding: 0;
+  font-family: 'Roboto Slab', serif;
+}
+
+.hotel-booking button
+{
+  height: 35px;
+  width: 190px;
+  font-size: 15px;
+  font-family: 'Roboto Slab' , serif;
+  text-align: center;
+  /* font-weight: bold; */
+  color: #fff;
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+  background-color: blue;
+  border-radius: 16px;
+}
+
+
+
+/* **********Colors Logic************ */
+
+.ExcellentColor 
+{
+  color: green;
+}
+.ExcellentBackColor
+{
+  background-color: rgba(0, 128, 0, 0.25);
+
+} 
+.VeryGoodColor 
+{
+  color: Blue;
+}
+.VeryGoodBackColor
+{
+  background-color: rgba(0, 0, 255, 0.26);
+  
+} 
+.GoodColor 
+{
+  /* color: yellow; */
+  color: Blue;
+}
+.GoodBackColor
+{
+  /* background-color: rgba(255, 255, 0, 0.25); */
+  background-color: rgba(0, 0, 255, 0.26);
+
+} 
+.AvarageColor 
+{
+  color: orange;
+}
+.AvarageBackColor
+{
+  background-color: rgba(255, 166, 0, 0.25);
+
+} 
+.WrostColor 
+{
+  color: red;
+}
+.WrostBackColor
+{
+  background-color: rgba(255, 0, 0, 0.25);
+
+} 
+
+
+
+
+
+
+
+
+/* Mobile */
+
+@media (max-width: 768px)
+{
+
+  .hotel-large-card
+  {
+    flex-direction: column;
+    height: 100%;
+    zoom: 0.75;
+  }
+  .hotel-large-card img
+  {
+    margin: auto;
+  }
+  
+.picinfo
+{
+  
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hotel-booking
+{
+
+  margin-top: 0px;
+}
+
+.forphone
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+
+
+.rating
+{
+  margin-left: -10%;
+  margin-right: 10%;
+}
+.hotel-booking button
+{
+  margin-bottom: 15px;
+}
+}

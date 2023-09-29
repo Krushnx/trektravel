@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Outline&display=swap');
+#Main
+{
+    position: sticky;
+    overflow-x: hidden;
+}
+#Start
+{
+    position: fixed;
+    margin: auto;
+    left: 50%;
+    bottom: 30%;
+}
+
+.carousel-item
+{
+    height: 90vh;
+    overflow: hidden;
+    overflow-x: hidden;
+    
+    
+}
+.slide
+{
+    overflow-x: hidden;
+}
+.carousel-item h1
+{
+    font-family: 'Londrina Outline', cursive;
+    color: white;
+    text-transform: capitalize;
+    font-size: 200px;
+    overflow: hidden;
+    margin-top: 200px;
+    
+}
+
+.carousel-item h1 div
+{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: -15px;
+    align-items: center;
+}
+.carousel-item h1 div h4
+{
+    font-size: 12px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.carousel-item h1 div p
+{
+    font-family: 'Times New Roman', Times, serif;
+    overflow-x: hidden;
+    font-size: 18px;
+    overflow: hidden;
+    width: 400px;
+    text-align: center;
+    word-spacing: 4px;
+    margin-bottom: -10px;
+    /* line-height: 20px; */
+}
+
+.carousel-item h1 div a h5
+{
+    margin-top: -5px;
+    font-size: 17px;
+    font-family: monospace;
+    padding: 7px;
+    border-radius: 7px;
+    background-color: #bb0052;
+
+}
+
+body
+{
+    margin: 0;
+    padding: 0;
+}
+
+.control-next
+{
+    width: 300px;
+    margin-bottom: -80px;
+}
+.control-prev
+{
+    width: 300px;
+    margin-bottom: -80px;
+}
+
+.carousel.carousel-slider .control-arrow:hover 
+{
+    background:rgb(0,0,0,0);
+}
+
+
+.carousel .control-arrow:before, .carousel.carousel-slider .control-arrow:before
+{
+    border-top : 55px solid transparent;
+    border-bottom: 55px solid transparent;
+}
+
+.carousel .control-next.control-arrow:before 
+{
+    border-left: 55px solid #fff;
+}
+
+.carousel .control-prev.control-arrow:before {
+    border-right: 55px solid #fff;
+    
+}
+
+.scrollbtn
+{
+    height:40px;
+    position: absolute;
+    bottom: 5%;
+    cursor: pointer;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 100px;
+}
+
+@media (max-width: 768px) 
+{
+    .control-next
+{
+   display: none;
+}
+.control-prev
+{
+    display: none;
+    width: 300px;
+    margin-bottom: -80px;
+}
+.carousel-item h1
+{
+    font-size: 90px;
+
+}
+}
