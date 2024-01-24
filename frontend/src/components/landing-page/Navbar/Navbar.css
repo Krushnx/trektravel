@@ -98,6 +98,7 @@ a
   
   .nav-items li {
     margin: 0 15px;
+    width: 75px;
   }
   
   .nav-items li a {
@@ -134,6 +135,10 @@ a
   /* Mobile view styles */
   @media (max-width: 768px) {
    
+    .navbar
+    {
+      /* width: 100vw; */
+    }
     .menu-toggle {
       display: flex;
     }
@@ -208,4 +213,27 @@ a
 .custom a
 {
   color:  #4c0448;
+}
+
+
+
+.usericon a
+{
+  
+  color: black;
+}
+
+.usericon 
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 35px;
+  
+}
+.usericon a i
+{
+  color: black;
+  font-size: 30px;
+  margin-bottom: 5px;
 }

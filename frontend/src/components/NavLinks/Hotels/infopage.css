@@ -3,6 +3,8 @@
     padding-top: 85px;
     /* margin: 5%; */
     /* border : 1px solid brown; */
+
+    background-color: white;
 }
 
 .hotel-content
@@ -180,4 +182,34 @@
     display: grid;
     grid-template-columns: auto auto auto;
     font-size: 17px;
+}
+
+@media (max-width: 768px)
+{
+    .hotel-content
+    {
+        flex-direction: column;
+    }
+
+    .Infopage
+    {
+        zoom: 0.8;
+    }
+
+    .hotel-page-info
+    {
+        width: 90%;
+    }
+    .hotel-page-preview
+    {
+        width: 90%;
+    }
+    .hotel-page-gallery
+    {
+        zoom: 0.70;
+    }
+    .hotel-page-extra
+    {
+        display: none;
+    }
 }

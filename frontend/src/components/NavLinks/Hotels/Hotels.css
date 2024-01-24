@@ -132,33 +132,7 @@
 
 
 
-  /* Mobile */
-    @media (max-width: 768px)
-    {
-    .golden
-    {
-        align-items: center;
-        flex-direction: column;
-        height: 100%;
-        background : none;
-    }
-
-    .hotel-small-card {
-        width: 270px;
-
-    }
-
-    .golden-intro
-    {
-        align-items: center;
-    }
-      
-    .golden-intro h4
-    {
-        text-align: center;
-    }
-    
-}
+  
 
 
 
@@ -197,3 +171,36 @@
     margin: 10px 10px;
   }
   
+.hotel-small-link
+{
+  color: black;
+}
+
+
+/* Mobile */
+@media (max-width: 768px)
+{
+.golden
+{
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    background : none;
+}
+
+.hotel-small-card {
+    width: 270px;
+
+}
+
+.golden-intro
+{
+    align-items: center;
+}
+  
+.golden-intro h4
+{
+    text-align: center;
+}
+
+}

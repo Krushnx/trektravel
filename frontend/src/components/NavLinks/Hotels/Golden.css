@@ -205,7 +205,8 @@
   {
     flex-direction: column;
     height: 100%;
-    zoom: 0.75;
+    zoom: 0.8;
+    width: 90%;
   }
   .hotel-large-card img
   {
