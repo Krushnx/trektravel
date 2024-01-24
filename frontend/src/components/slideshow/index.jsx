@@ -26,7 +26,7 @@ const Slideshow = () => {
     backgroundPosition: 'center center',
     height: '100vh', // Adjust this to your desired height
   });
-  console.log(preloadedImages);
+  // console.log(preloadedImages);
 
   useEffect(() => {
     // Preload all images when the component mounts
@@ -63,7 +63,7 @@ const Slideshow = () => {
        </div>
       <Carousel
   showArrows={true}
-  showThumbs={true}
+  showThumbs={false}
   selectedItem={currentIndex}
   showStatus = {false}
   onChange={handleCarouselChange}

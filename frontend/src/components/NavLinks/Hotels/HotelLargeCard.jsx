@@ -28,11 +28,11 @@ function HotelLargeCard(props) {
   getStatus();
   var tagcolor = tag + "Color";
   var ratingclass = tag + "Color " + tag + "BackColor";
-  console.log(tagcolor);
+  // console.log(tagcolor);
 
 
 
-    console.log(props.features);
+    // console.log(props.features);
 
 
 

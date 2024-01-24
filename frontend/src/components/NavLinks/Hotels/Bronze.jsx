@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react"
 import './Golden.css'
 import HotelLargeCard from './HotelLargeCard';
+import link from "../../../backendlink";
 
 function Bronze() {
 
@@ -8,7 +9,7 @@ function Bronze() {
   const [hotels, sethotels] = useState([])
 
   const fetchUserData = () => {
-    fetch("http://localhost:8000/hotels/")
+    fetch(`${link}/hotels/`)
       .then(response => {
         return response.json()
       })

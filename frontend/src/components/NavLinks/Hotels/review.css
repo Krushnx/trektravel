@@ -1,0 +1,204 @@
+.review
+{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    /* width: 100%; */
+    /* margin: 1px; */
+    /* border-top: 1px solid grey; */
+}
+
+.review-profile
+{
+    margin-top: 25px;
+}
+.review-profile img
+{
+    width: 40px;
+}
+.review-profile p
+{
+    margin: 0px 15px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    font-size: 17px;
+}
+.review-item
+{
+    margin-left: 200px;
+    display: flex;
+    align-items: center;
+    width: 750px;
+    margin-top: 1px;
+    /* border: 1px solid blue; */
+}
+
+.review-stars
+{
+    pointer-events: none;
+
+}
+
+.review-title p
+{
+    font-weight: bold;
+    margin: 0px 15px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    font-size: 17px;
+}
+
+.review-time p
+{
+    margin: 4px 0;
+    font-size: 15px;
+    color: rgb(117, 117, 117);
+    font-weight: 545;
+    font-family: 'ubuntu';
+}
+
+.review-content p
+{
+    margin: 4px 0;
+    /* font-family: 'ubuntu'; */
+    font-family: "Amazon Ember", Arial, sans-serif;
+    line-height: 20px;
+    font-size: 15px;    
+
+}
+
+
+
+/*------------------------------ Whole Section-------------------------- */
+
+.hotel-page-reviews
+{
+    padding-top: 10px;
+    /* display: none; */
+    background-color: white;
+}
+
+.hotel-page-line
+{
+    width: 95vw;
+    margin: auto;
+    border-top: 1px solid darkgrey;
+    
+}
+
+
+.hotel-page-reviews h2
+{
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    margin-left: 20px;
+}
+
+/* Add a Review */
+
+
+.addreview textarea
+{
+    resize: none;
+    border: 2px solid rgb(199, 199, 199);
+    border-top: none;
+    
+}
+.addreview textarea:focus
+{
+    outline: none;
+}
+.addreview input
+{
+    /* margin-left: ; */
+    /* width: 100%; */
+    height: 23px;
+    font-size: 17px;
+    border: none;
+}
+
+.addreview input:focus
+{
+    outline: none;
+}
+.addreview input::placeholder
+{
+    font-size: 14px;
+    font-family: monospace;
+}
+
+
+.addreview form
+{
+    display: flex;
+    flex-direction: column;
+    margin: 3% 20%;
+
+}
+
+.bdr
+{
+    display: flex;
+    flex-direction: column;
+    /* margin: 0 20%; */
+    border: 2px solid rgb(199, 199, 199);
+}
+.addreview form p
+{
+    margin: 0;
+    font-size: 17px;
+    width: 95px;
+    color: rgb(117, 117, 117);
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(199, 199, 199);
+    font-family:  Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.addreview form button
+{
+    background-color: green;
+    font-weight: bold;
+    color: white;
+    margin-top: 12px;
+    padding: 10px;
+    width: 100px;
+}
+
+
+/* Mobile */
+
+@media (max-width: 768px)
+{
+    .review-profile
+    {
+        width: 95vw;
+        
+    }
+    
+    .review-item
+    {
+        width: 95vw;
+        margin-left: 0;
+    }
+    .review-content p
+    {
+        /* width: 95vw; */
+    }
+    .review-title
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        
+    }
+    .review-title p
+    {
+        margin-left: 0;
+    }
+
+   
+    .hotel-page-reviews
+    {
+        width: 100%;
+    }
+    
+}

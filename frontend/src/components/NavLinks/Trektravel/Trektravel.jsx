@@ -1,4 +1,4 @@
-import './Holiday.css'
+import './Trektravel.css'
 import React from 'react';
 function HolidayPack()
 {
